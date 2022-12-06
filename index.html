@@ -46,9 +46,17 @@
         <section class="hero">
             <div>
             <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button class="main-button" type="button">Solicite nuestro servicio</button>
+            <button data-modal-open class="main-button" type="button">Solicite nuestro servicio</button>
             </div>
+        
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="btn-modal" data-modal-close>X</button>
+            </div>
+        </div>
         </section>
+
 
         <section class="section">
             <div class="container">
@@ -350,6 +358,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
