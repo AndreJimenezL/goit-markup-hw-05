@@ -200,12 +200,14 @@ header nav .nav-menu .link {
 
 .main-button:hover {
     background-color: var(--accent-color-hover);
+    justify-content: center;
 }
 
 .backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    
 }
 
 .modal {
@@ -213,7 +215,8 @@ header nav .nav-menu .link {
     width: 528px;
     height: 581px;
     left: 536px;
-    top: 221px;
+    top: 100px;
+    
 
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
