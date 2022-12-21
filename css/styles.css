@@ -211,12 +211,9 @@ header nav .nav-menu .link {
 }
 
 .modal {
-    position: absolute;
     width: 528px;
     height: 581px;
-    left: 536px;
-    top: 100px;
-    
+    margin-top: 3%;
 
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -227,18 +224,17 @@ header nav .nav-menu .link {
     box-sizing: border-box;
     border-radius: 20px;
     cursor: pointer;
-    margin: 8px 8px 8px 460px;
+    margin: 8px 8px 8px 490px;
     width: 30px;
     height: 30px;
-    left: 1026px;
-    top: 229px;
-
+    
     background: var(--primary-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .backdrop {
     display: flex;
+    padding: 5% 0;
     justify-content: center;
     position: fixed;
     top: 0;
